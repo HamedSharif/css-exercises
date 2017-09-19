@@ -11,7 +11,8 @@ div>p{background-color: green;}
 div~p{background-color: yellow;}
 div+p{background-color: pink;}
 
-li{list-style-type: none;  }
+li{list-style-type: lower-alpha;  }
+
 
 a {
     text-decoration: none ;
