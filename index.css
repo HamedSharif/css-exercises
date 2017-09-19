@@ -1,0 +1,6 @@
+#font-size{ font-size: 25px;}
+.font-size{font-size: 30px;}
+
+a[href^="http"]  { color: red; }
+a[href$="oo.se"]{color:green;}
+a[href*="msn"]{color:blue;}
