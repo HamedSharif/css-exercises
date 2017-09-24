@@ -1,21 +1,43 @@
 #font-size{ font: 25px/1.5 Arial;}
 .font-size{font: 30px/1.5 Arial;}
 
+
+/* Attribute selector*/
 a[href^="http"]  { color: red; }
 a[href$="oo.se"]{color:green;}
 a[href*="blo"]{color:blue;}
 a[href="index.html"]{color: aquamarine;}
 
-/*
-h1{background-color: gray;}
-body p{background-color: red;}
-div>p{background-color: green;}
-div~p{background-color: yellow;}
-div+p{background-color: pink;}
 
-li{list-style-type: lower-alpha;  }
+h1{ background-color: gray;}
+
+/* Descendant combinator*/
+body p{ background-color: red;}
 
 
-a {
-    text-decoration: none ;
-}
+/* child combinator*/
+body div>p:nth-child(2){ background-color: green;}
+
+/*sibling combinator*/
+body div~p{ background-color: yellow;}
+
+/* adjacent sibling combinator*/
+body div+p{ background-color: pink;}
+
+body ul li:nth-child(3){background-color: indigo;
+height:100px;}
+
+/*1. Change the list style of the unordered list so that no bullets are visible.
+Instead, it should display a lower-case letter for each list item*/
+body ul{list-style: lower-latin;}
+/*2. Display your links without an underline, i.e instead of this:*/
+body a{text-decoration: none;}
+
+
+
+
+
+
+
+
+
