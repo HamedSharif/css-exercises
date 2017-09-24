@@ -1,10 +1,12 @@
-#font-size{ font-size: 25px;}
-.font-size{font-size: 30px;}
+#font-size{ font: 25px/1.5 Arial;}
+.font-size{font: 30px/1.5 Arial;}
 
 a[href^="http"]  { color: red; }
 a[href$="oo.se"]{color:green;}
-a[href*="msn"]{color:blue;}
+a[href*="blo"]{color:blue;}
+a[href="index.html"]{color: aquamarine;}
 
+/*
 h1{background-color: gray;}
 body p{background-color: red;}
 div>p{background-color: green;}
