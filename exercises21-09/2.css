@@ -1,0 +1,6 @@
+body nav ul li{
+               background-color: blueviolet;
+               display:inline;
+               padding: 10px;
+               border-radius: 5px;
+               }
