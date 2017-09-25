@@ -1,0 +1,12 @@
+
+
+div{background-color: gold;
+    height:150px;
+    width: 500px;
+    background-image: url(Night.jpeg);
+    background-size: 100px 100px;
+    background-repeat:no-repeat;
+    background-position: center;
+    border-image-width: auto;
+}
+

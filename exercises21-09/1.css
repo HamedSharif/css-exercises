@@ -1,6 +1,8 @@
 body p:first-child:first-line{color: red;}
 body article:before{
-    content:url('Night.jpeg'); /* with class ModalCarrot ??*/
-    width: 200px;
-    height: 200px;
+    border-image:url('Night.jpeg'); /* with class ModalCarrot ??*/
+
+
+
+
 }
